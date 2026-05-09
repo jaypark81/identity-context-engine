@@ -198,7 +198,15 @@ identity-context-engine →  runtime events + who + why + how anomalous
 
 ---
 
-## Status
+## Privacy & Legal Considerations
+
+This engine correlates employee identity with behavioral and runtime signals. Deploying it in any organization involves processing personal data and monitoring employee activity — both of which carry significant legal obligations depending on jurisdiction.
+
+Before deployment, legal review is strongly recommended, covering at minimum: applicable data protection law (e.g. GDPR), employee notification requirements, works council or labor representation obligations, and data retention limits.
+
+This engine is intended for **security anomaly detection**, not employee performance monitoring or surveillance.
+
+---
 
 Early design phase. This repository documents the architectural concept and module plan.
 Implementation will proceed module by module, starting with the identity anchor layer.
